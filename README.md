@@ -2,6 +2,42 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
+
+//RX & MobX
+https://stackblitz.com/edit/angular-mobx-netanel-pxnnfz?file=app%2Ftodos-page%2Ftodos-page.component.ts
+
+
+https://medium.com/@ildarnm/how-mobx-works-inside-angular-d3e9310c94a1
+
+
+https://github.com/mobxjs
+Angular 
+https://github.com/mobxjs/mobx-angular
+
+
+Mobx Quick Intro :
+https://www.youtube.com/watch?v=16QQLes3LH0&t=1s
+https://www.packtpub.com/product/mobx-quick-start-guide/9781789344837
+
+
+
+Monster Todo
+https://www.youtube.com/watch?v=uyTC0Skvvls&t=573s
+https://github.com/monsterlessonsacademy/monsterlessonsacademy/tree/87-angular-todo-list-app
+
+//
+https://thewebdev.info/2021/06/28/how-to-use-mobx-for-easy-state-management-in-your-angular-app/
+
+https://netbasal.com/managing-state-in-angular-with-mobx-51191803e14f
+
+Mobx Quik start Debug console
+https://github.com/PacktPublishing/MobX-Quick-Start-Guide
+
+GRab some style
+https://github.com/mobxjs/mobx-react-devtools
+http://piotrwitek.github.io/training-management-tool/
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

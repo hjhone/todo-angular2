@@ -1,0 +1,25 @@
+
+New
+
+<app-header></app-header>
+
+
+
+
+<ng-container *mobxAutorun="{ name: 'autorun tasks' }">
+  <ng-container *ngIf="1">
+    <div *ngIf="taskStore.items?.length === 0" class="empty-list">There is no task</div>
+    <!--it-task-item-- *ngFor="let task of taskStore.items?.tasks; trackBy: trackByTaskId" [task]="task" (remove)="removeTask($event)"></!--it-task-item-->
+    <div class="header">
+      <input [value]="newTaskTitle" (input)="handleNewTaskTitleInput($event)" type="text"
+             placeholder="Enter new task">
+      <button (click)="handleNewTask()">Add</button>
+    </div>
+
+    <span class="todo-count">
+      <strong>{{ taskStore.items.length }}</strong>
+      99
+    </span>
+
+  </ng-container>
+</ng-container>
